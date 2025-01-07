@@ -3,7 +3,7 @@ I follow this guide: https://0xtnpxsgt.gitbook.io/airxnode/hyperspace-a.i/hypers
 Thank you 0xtnpxsgt!
 ## Step:1 Install Docker, if it is there you can skip it.
 ```Bash
-docker -version
+docker --version
 ```
 ```Bash
 apt install docker.io -y
