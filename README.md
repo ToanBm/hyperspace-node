@@ -65,11 +65,6 @@ aios-cli hive connect
 ```Bash
 aios-cli hive points
 ```
-CTRL + D to exit docker
+### CTRL + D to exit docker
 
-## Shortcut for Start, Login and Connect to Hive commands, if you've stopped you node
-aios-cli start --connect
-### Update node
-aios-cli version
-### Stop node
-aios-cli kill
+## .............Done!............
