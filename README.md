@@ -5,6 +5,7 @@ Thank you 0xtnpxsgt!
 ```Bash
 docker --version
 ```
+### If you have Installed to step 2!
 ```Bash
 apt install docker.io -y
 ```
