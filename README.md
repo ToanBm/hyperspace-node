@@ -68,7 +68,7 @@ aios-cli hive points
 ### CTRL + D to exit docker
 ## Congratulations on your success!
 
-## To check your point
+## 1. To check your point
 ```Bash
 docker container exec -it aios /bin/bash
 ```
@@ -76,3 +76,29 @@ docker container exec -it aios /bin/bash
 aios-cli hive points
 ```
 ### CTRL + D to exit docker
+## 2. To restart your node
+```Bash
+docker container exec -it aios /bin/bash
+```
+```Bash
+screen -r aios
+```
+### Ctrl + C, to stop
+```Bash
+aios-cli start
+```
+### CTRL + A, D to exit screen
+```Bash
+aios-cli hive disconnect
+```
+```Bash
+aios-cli hive login
+```
+
+
+
+
+
+
+
+
