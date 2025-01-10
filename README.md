@@ -92,7 +92,7 @@ aios-cli start
 aios-cli hive disconnect
 ```
 ```Bash
-aios-cli hive login
+aios-cli hive connect
 ```
 
 
