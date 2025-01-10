@@ -81,6 +81,9 @@ aios-cli hive points
 docker container exec -it aios /bin/bash
 ```
 ```Bash
+aios-cli hive disconnect
+```
+```Bash
 screen -r aios
 ```
 ### Ctrl + C, to stop
@@ -89,7 +92,7 @@ aios-cli start
 ```
 ### CTRL + A, D to exit screen
 ```Bash
-aios-cli hive disconnect
+aios-cli hive login
 ```
 ```Bash
 aios-cli hive connect
